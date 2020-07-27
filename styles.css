@@ -94,7 +94,18 @@ video {
 }
 
 
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers
+
+
+
+
+Colors
+#34362F
+#57897B
+#C05934
+#C99946
+#A59E69
+*/
 
 article,
 aside,
@@ -176,6 +187,16 @@ nav a {
     padding: 1rem;
     border: 0.5rem #34362F;
     margin: 1rem;
+    border-style: solid;
+    border-radius: 1rem;
+}
+
+nav a:hover {
+    border: 0.5rem #C05934;
+    padding: 1rem;
+    border: 0.5rem #C05934;
+    margin: 1rem;
+    background-color: #C05934;
     border-style: solid;
     border-radius: 1rem;
 }
