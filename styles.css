@@ -143,7 +143,6 @@ table {
 h1 {
     font-size: 5rem;
     color: #34362F;
-    background-image: linear-gradient( #A59E69, #57897B);
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     text-align: center;
     -webkit-text-stroke: 0.1rem #57897B;
@@ -158,7 +157,6 @@ h2 {
     color: #34362F;
     font-size: 3rem;
     -webkit-text-stroke: 0.1rem #57897B;
-    background-image: linear-gradient( #C05934, #A59E69);
 }
 
 nav {
@@ -166,7 +164,6 @@ nav {
     justify-content: flex-start;
     text-align: center;
     text-decoration: none;
-    background-image: linear-gradient( #57897B, #C05934);
 }
 
 nav a {
@@ -180,7 +177,7 @@ nav a {
     border: 0.5rem #34362F;
     margin: 1rem;
     border-style: solid;
-    border-radius: 25px;
+    border-radius: 1rem;
 }
 
 .container {
@@ -193,6 +190,7 @@ nav a {
     display: flex;
     max-width: 20rem;
     max-height: 20rem;
+    padding: 2rem;
 }
 
 p {
